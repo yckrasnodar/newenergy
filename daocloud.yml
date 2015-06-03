@@ -1,7 +1,6 @@
 image: ubuntu:14.04
 
 services:
-    - mongodb
     - mysql
     - redis
 
@@ -23,6 +22,5 @@ script:
     - echo "This is an script segment"
     - echo "Run test cases here"
     - echo "Below shows how to use services"
-    - ping -c 2 mongodb
     - ping -c 2 mysql
     - ping -c 2 redis
